@@ -17,11 +17,11 @@
 
 - Semester: ???
 
-- Matriculation Number: 序号, 不足六位请在前面补 0 (例如, 序号为8的同学, 此处填写 000008;
-  序号为 18 的同学, 此处填写 000018; 依此类推)
+- Matriculation Number: 年份+序号, 不足六位请在序号前面补 0 (例如, 今年为???年，序号为8的同学, 此处填写 ???08;
+  序号为 18 的同学, 此处填写 ???18; 依此类推)
 
 #### 3. 试题
-- 提交入口 DIMA Evaluation Tool → ??? → Assignments (密码: ???)
+- 注册题库: DIMA Evaluation Tool → ??? → Assignments (密码: ???)
 
 - 代码入口: 使用SSH clone (如未设置 SSH key, 请先完成 [Gitlab SSH key 设置](./SSH.md)) 或使用Https clone 命令为`git clone URL`（其中URL见仓库右上角clone）
 
