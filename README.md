@@ -21,7 +21,7 @@
   序号为 18 的同学, 此处填写 ???18; 依此类推)
 
 #### 3. 试题
-- 提交入口 DIMA Evaluation Tool → Distributed System Paradigm and Programming (Exercise) → Assignments (密码: ???)
+- 提交入口 DIMA Evaluation Tool → ??? → Assignments (密码: ???)
 
 - 代码入口: 使用 SSH clone (如未设置 SSH key, 请先完成 [Gitlab SSH key 设置](./SSH.md)) 或使用 HTTPS clone. 命令为 `git clone URL` (其中 `URL` 见仓库右上角 clone)
 
