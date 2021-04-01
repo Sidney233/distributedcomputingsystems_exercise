@@ -22,7 +22,7 @@
 
   * 打开 `~/.ssh/id_rsa.pub`, 全选所有内容复制至剪贴板
 
-  * 打开Gitlab网站, 点击右上角用户头像, 选择 Settings. 在 SSH Keys 中将复制的内容粘贴至 `Key` 处. 点击 `Add key` 按钮
+  * 打开Gitlab网站, 点击右上角用户头像, 选择 Preferences. 在 SSH Keys 中将复制的内容粘贴至 `Key` 处. 点击 `Add key` 按钮
 
   * 检验是否设置成功
 

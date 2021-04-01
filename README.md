@@ -4,9 +4,9 @@
 
 ![](./logo.jpg)
 
-#### 1.注册账号
+#### 1.注册DIMA Evaluation Tool账号
 
-- 访问http://10.24.15.160:8080/，点击register
+- 访问[DIMA Evaluation Tool](http://10.24.15.160:8080/)，点击register
 - 在注册页面填入相关的信息，信息填写的相关要求如下
   - First Name/Last Name: 请使用汉语拼音 
   - University: 选 other, 填 ECNU
@@ -16,7 +16,9 @@
 
 #### 2. 访问DIMA Evaluation Tool试题
 
-- 在Current Courses选项下选择???课程，然后在下图所示的界面中输入密码???即可看到试题（Assignments）
+- 在Current Courses选项下选择???课程
+
+  然后在下图所示的界面中输入密码即可看到试题（Assignments），**密码将另行通知。**
 
   ![image-20210331215901885](assets/image-20210331215901885.png)
 
@@ -30,7 +32,7 @@
 
 - 进入代码目录 `cd bigdataprogramming_exercise`
 
-- 阅读DIMA Evaluation Tool试题的说明，使用命令 `git checkout XXX`切换至对应的试题分支, 其中 `XXX` 代表分支名称 (如 hadoop_warm_up 等) (**切换之前请参考最后一条保存当前分支进度**)
+- 阅读DIMA Evaluation Tool试题的说明，使用命令 `git checkout XXX`切换至对应的试题分支, 其中 `XXX` 代表分支名称 (如 mapreduce_warm_up 等) (**切换之前请参考最后一条保存当前分支进度**)
 
 - 通过 Intellij IDEA 中导入当前试题分支下的 Maven 工程
 
@@ -40,7 +42,7 @@
 
   - 运行 junit test 中的测试代码
 
-    以 hadoop_warm_up 为例，在 Intellij IDEA 中打开 `src/test/java/DSPPTest/student/hadoop/warm_up/WordCountTest.java`
+    以 mapreduce_warm_up 为例，在 Intellij IDEA 中打开 `src/test/java/DSPPTest/student/mapreduce/warm_up/WordCountTest.java`
 
     按 Ctrl + Shift + F10 运行，或右键选择 Run 'WordCountTest.java'
 
