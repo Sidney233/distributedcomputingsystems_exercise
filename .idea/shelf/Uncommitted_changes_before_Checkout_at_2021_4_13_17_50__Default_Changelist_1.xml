@@ -1,0 +1,9 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_2021_4_13_17_50_[Default_Changelist]1" date="1618307450924" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_13_17_50_[Default_Changelist]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 2021/4/13 17:50 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerMapperImpl.class" />
+    <option name="AFTER_PATH" value="target/classes/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerMapperImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_13_17_50_[Default_Changelist]1/ConsumerMapperImpl.class" />
+  </binary>
+</changelist>

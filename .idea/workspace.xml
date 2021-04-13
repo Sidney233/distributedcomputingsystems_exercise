@@ -22,9 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0d47b5a-7d9b-4cd9-977d-5482562b8483" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerReducerImpl.java" afterDir="false" />
+    <list default="true" id="03c808f3-62dc-4e89-969a-f80aebf10b19" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerReducerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerReducerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerReducerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerReducerImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +45,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="mapreduce_max_temperature" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -129,8 +137,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ConsumerTest" />
-        <item itemvalue="JUnit.AverageScoreTest" />
         <item itemvalue="JUnit.AverageScoreTest.test" />
+        <item itemvalue="JUnit.AverageScoreTest" />
+        <item itemvalue="JUnit.ConsumerTest" />
+        <item itemvalue="JUnit.AverageScoreTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,38 +185,38 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="490" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1368.872@0.0.1368.872" timestamp="1618289330822" />
-    <state width="1326" height="281" key="GridCell.Tab.0.bottom" timestamp="1618290015528">
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1618308680240">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="281" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1618290015528" />
-    <state width="1326" height="281" key="GridCell.Tab.0.center" timestamp="1618290015528">
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1618308680240" />
+    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1618308680240">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="281" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1618290015528" />
-    <state width="1326" height="281" key="GridCell.Tab.0.left" timestamp="1618290015527">
+    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1618308680240" />
+    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1618308680240">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="281" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1618290015527" />
-    <state width="1326" height="281" key="GridCell.Tab.0.right" timestamp="1618290015528">
+    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1618308680240" />
+    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1618308680240">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="281" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1618290015528" />
-    <state width="1326" height="281" key="GridCell.Tab.1.bottom" timestamp="1618290015529">
+    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1618308680240" />
+    <state width="1326" height="281" key="GridCell.Tab.1.bottom" timestamp="1618308680234">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="281" key="GridCell.Tab.1.bottom/0.0.1368.872@0.0.1368.872" timestamp="1618290015529" />
-    <state width="1326" height="281" key="GridCell.Tab.1.center" timestamp="1618290015528">
+    <state width="1326" height="281" key="GridCell.Tab.1.bottom/0.0.1368.872@0.0.1368.872" timestamp="1618308680234" />
+    <state width="1326" height="281" key="GridCell.Tab.1.center" timestamp="1618308680234">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="281" key="GridCell.Tab.1.center/0.0.1368.872@0.0.1368.872" timestamp="1618290015528" />
-    <state width="1326" height="281" key="GridCell.Tab.1.left" timestamp="1618290015528">
+    <state width="1326" height="281" key="GridCell.Tab.1.center/0.0.1368.872@0.0.1368.872" timestamp="1618308680234" />
+    <state width="1326" height="281" key="GridCell.Tab.1.left" timestamp="1618308680234">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="281" key="GridCell.Tab.1.left/0.0.1368.872@0.0.1368.872" timestamp="1618290015528" />
-    <state width="1326" height="281" key="GridCell.Tab.1.right" timestamp="1618290015528">
+    <state width="1326" height="281" key="GridCell.Tab.1.left/0.0.1368.872@0.0.1368.872" timestamp="1618308680234" />
+    <state width="1326" height="281" key="GridCell.Tab.1.right" timestamp="1618308680234">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="281" key="GridCell.Tab.1.right/0.0.1368.872@0.0.1368.872" timestamp="1618290015528" />
+    <state width="1326" height="281" key="GridCell.Tab.1.right/0.0.1368.872@0.0.1368.872" timestamp="1618308680234" />
     <state x="215" y="91" key="Maven.ArtifactSearchDialog" timestamp="1618289239275">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
@@ -228,9 +238,9 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerMapperImpl.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerReducerImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

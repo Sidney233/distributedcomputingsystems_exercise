@@ -1,0 +1,50 @@
+Index: src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerMapperImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package DSPPCode.mapreduce.consumer_statistics.impl;\r\n\r\nimport DSPPCode.mapreduce.consumer_statistics.question.ConsumerMapper;\r\nimport org.apache.hadoop.io.LongWritable;\r\nimport org.apache.hadoop.io.Text;\r\n\r\nimport java.io.IOException;\r\n\r\npublic class ConsumerMapperImpl extends ConsumerMapper {\r\n\r\n    @Override\r\n    public void map(LongWritable key, Text value, Context context)\r\n            throws IOException, InterruptedException {\r\n        String[] data = value.toString().split(\"\\t\");\r\n        context.write(new Text(data[3]), IInteger.parseInt(data[2]));\r\n    }\r\n}\r\n
+===================================================================
+--- src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerMapperImpl.java	(revision 2000066196174101c79966371e9944117544b819)
++++ src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerMapperImpl.java	(date 1618307159500)
+@@ -1,6 +1,8 @@
+ package DSPPCode.mapreduce.consumer_statistics.impl;
+ 
++import DSPPCode.mapreduce.consumer_statistics.question.Consumer;
+ import DSPPCode.mapreduce.consumer_statistics.question.ConsumerMapper;
++import org.apache.hadoop.io.IntWritable;
+ import org.apache.hadoop.io.LongWritable;
+ import org.apache.hadoop.io.Text;
+ 
+@@ -12,6 +14,11 @@
+     public void map(LongWritable key, Text value, Context context)
+             throws IOException, InterruptedException {
+         String[] data = value.toString().split("\t");
+-        context.write(new Text(data[3]), IInteger.parseInt(data[2]));
++        boolean isvip = false;
++        if (data[3].equals("vip")) {
++            isvip = true;
++        }
++        Consumer consumer = new Consumer(data[0], Integer.parseInt(data[2]), isvip);
++        context.write(new Text(data[3]), consumer);
+     }
+ }
+Index: src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerReducerImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package DSPPCode.mapreduce.consumer_statistics.impl;\r\n\r\nimport DSPPCode.mapreduce.consumer_statistics.question.Consumer;\r\nimport DSPPCode.mapreduce.consumer_statistics.question.ConsumerReducer;\r\nimport org.apache.hadoop.io.Text;\r\n\r\nimport java.io.IOException;\r\n\r\npublic class ConsumerReducerImpl extends ConsumerReducer {\r\n\r\n    @Override\r\n    protected void reduce(Text key, Iterable<Consumer> values, Context context)\r\n            throws IOException, InterruptedException {\r\n\r\n    }\r\n}\r\n
+===================================================================
+--- src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerReducerImpl.java	(revision 2000066196174101c79966371e9944117544b819)
++++ src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerReducerImpl.java	(date 1618307428891)
+@@ -11,6 +11,12 @@
+     @Override
+     protected void reduce(Text key, Iterable<Consumer> values, Context context)
+             throws IOException, InterruptedException {
+-
++        long sum = 0;
++        int count = 0;
++        for (Consumer value : values) {
++            sum += value.getMoney();
++            count += 1;
++        }
++        context.write(key, count, sum);
+     }
+ }
