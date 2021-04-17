@@ -37,12 +37,12 @@ public class PageRankRunner extends Configured implements Tool {
     job.setJarByClass(getClass());
 
     // 设置数据的输入路径
+    FileInputFormat.addInputPath(job, new Path(args[0]));
     if (iteration == 0) {
-      FileInputFormat.addInputPath(job, new Path(args[0]));
       job.addCacheFile(new Path(args[3]).toUri());
     } else {
       // 将上一次迭代的输出设置为输入
-      FileInputFormat.addInputPath(job, new Path(args[1] + (iteration - 1)));
+      job.addCacheFile(new Path(args[1] + (iteration - 1) + "/part-r-00000").toUri());
     }
     // 设置数据的输出路径
     FileOutputFormat.setOutputPath(job, new Path(args[1] + iteration));
