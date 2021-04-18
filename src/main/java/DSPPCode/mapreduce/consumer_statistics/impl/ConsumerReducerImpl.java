@@ -7,20 +7,31 @@ import org.apache.hadoop.io.Text;
 
 import java.io.IOException;
 import java.io.StringWriter;
+import java.util.HashSet;
+import java.util.Set;
 
 public class ConsumerReducerImpl extends ConsumerReducer {
 
     @Override
     protected void reduce(Text key, Iterable<Consumer> values, Context context)
             throws IOException, InterruptedException {
+        Set hashSet = new HashSet();
         long sum = 0;
-        int count = 0;
+        String id;
+        long count = 0;
         for (Consumer value : values) {
             sum += value.getMoney();
-            count += 1;
+            id = value.getId();
+            if (hashSet.contains(id)) {
+                continue;
+            }
+            else {
+                hashSet.add(id);
+                count += 1;
+            }
         }
         String output;
-        output = key + "\t" + Integer.toString(count) + "\t" + Long.toString(sum);
+        output = key + "\t" + Long.toString(count) + "\t" + Long.toString(sum);
         context.write(new Text(output), NullWritable.get());
     }
 }

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Com" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -22,11 +27,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03c808f3-62dc-4e89-969a-f80aebf10b19" name="Default Changelist" comment="">
+    <list default="true" id="ac8037e9-ea29-40f5-b9d7-756c0f2a9006" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Com.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Com/Com.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerMapperImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerReducerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerReducerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerMapperImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerReducerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerReducerImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,19 +45,7 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="mapreduce_max_temperature" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -62,7 +58,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1r4W7PP9ktFtsyVAHmeLHv6IsmO" />
+  <component name="ProjectId" id="1rIgIkUxvrxWH0A1lLnKfxhy8Ty" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -70,10 +66,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="JUnit.ConsumerTest">
@@ -84,37 +81,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AverageScoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSPP_Exercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DSPPTest.student.mapreduce.average_score.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DSPPTest.student.mapreduce.average_score" />
-      <option name="MAIN_CLASS_NAME" value="DSPPTest.student.mapreduce.average_score.AverageScoreTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AverageScoreTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSPP_Exercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DSPPTest.student.mapreduce.average_score.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DSPPTest.student.mapreduce.average_score" />
-      <option name="MAIN_CLASS_NAME" value="DSPPTest.student.mapreduce.average_score.AverageScoreTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,30 +100,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConsumerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="distributedcomputingsystems_exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSPPTest.student.mapreduce.consumer_statistics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DSPPTest.student.mapreduce.consumer_statistics" />
+      <option name="MAIN_CLASS_NAME" value="DSPPTest.student.mapreduce.consumer_statistics.ConsumerTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ConsumerTest" />
-        <item itemvalue="JUnit.AverageScoreTest.test" />
-        <item itemvalue="JUnit.AverageScoreTest" />
-        <item itemvalue="JUnit.ConsumerTest" />
-        <item itemvalue="JUnit.AverageScoreTest" />
+        <item itemvalue="JUnit.ConsumerTest.test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f0d47b5a-7d9b-4cd9-977d-5482562b8483" name="Default Changelist" comment="" />
-      <created>1618235677579</created>
+      <changelist id="ac8037e9-ea29-40f5-b9d7-756c0f2a9006" name="Default Changelist" comment="" />
+      <created>1618668942528</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1618235677579</updated>
-      <workItem from="1618235682050" duration="506000" />
-      <workItem from="1618236217386" duration="1014000" />
-      <workItem from="1618288051071" duration="82000" />
-      <workItem from="1618288931162" duration="3000" />
-      <workItem from="1618288965396" duration="279000" />
-      <workItem from="1618289278575" duration="730000" />
+      <updated>1618668942528</updated>
+      <workItem from="1618668948016" duration="428000" />
+      <workItem from="1618735570466" duration="1134000" />
     </task>
     <servers />
   </component>
@@ -177,72 +152,65 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1181" height="685" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1618237095451">
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1618736713669">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="93" y="93" width="1181" height="685" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1368.872@0.0.1368.872" timestamp="1618237095451" />
-    <state x="490" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1618289330822">
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1618736713669" />
+    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1618736713669">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="490" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1368.872@0.0.1368.872" timestamp="1618289330822" />
-    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1618308680240">
+    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1618736713669" />
+    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1618736713669">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1618308680240" />
-    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1618308680240">
+    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1618736713669" />
+    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1618736713669">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1618308680240" />
-    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1618308680240">
+    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1618736713669" />
+    <state width="1326" height="281" key="GridCell.Tab.1.bottom" timestamp="1618736713663">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1618308680240" />
-    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1618308680240">
+    <state width="1326" height="281" key="GridCell.Tab.1.bottom/0.0.1368.872@0.0.1368.872" timestamp="1618736713663" />
+    <state width="1326" height="281" key="GridCell.Tab.1.center" timestamp="1618736713663">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1618308680240" />
-    <state width="1326" height="281" key="GridCell.Tab.1.bottom" timestamp="1618308680234">
+    <state width="1326" height="281" key="GridCell.Tab.1.center/0.0.1368.872@0.0.1368.872" timestamp="1618736713663" />
+    <state width="1326" height="281" key="GridCell.Tab.1.left" timestamp="1618736713663">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="281" key="GridCell.Tab.1.bottom/0.0.1368.872@0.0.1368.872" timestamp="1618308680234" />
-    <state width="1326" height="281" key="GridCell.Tab.1.center" timestamp="1618308680234">
+    <state width="1326" height="281" key="GridCell.Tab.1.left/0.0.1368.872@0.0.1368.872" timestamp="1618736713663" />
+    <state width="1326" height="281" key="GridCell.Tab.1.right" timestamp="1618736713663">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="281" key="GridCell.Tab.1.center/0.0.1368.872@0.0.1368.872" timestamp="1618308680234" />
-    <state width="1326" height="281" key="GridCell.Tab.1.left" timestamp="1618308680234">
+    <state width="1326" height="281" key="GridCell.Tab.1.right/0.0.1368.872@0.0.1368.872" timestamp="1618736713663" />
+    <state x="165" y="10" key="SettingsEditor" timestamp="1618736494509">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="281" key="GridCell.Tab.1.left/0.0.1368.872@0.0.1368.872" timestamp="1618308680234" />
-    <state width="1326" height="281" key="GridCell.Tab.1.right" timestamp="1618308680234">
+    <state x="165" y="10" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1618736494509" />
+    <state x="228" y="172" width="911" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1618736185284">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="281" key="GridCell.Tab.1.right/0.0.1368.872@0.0.1368.872" timestamp="1618308680234" />
-    <state x="215" y="91" key="Maven.ArtifactSearchDialog" timestamp="1618289239275">
-      <screen x="0" y="0" width="1368" height="872" />
-    </state>
-    <state x="215" y="91" key="Maven.ArtifactSearchDialog/0.0.1368.872@0.0.1368.872" timestamp="1618289239275" />
-    <state x="165" y="10" key="SettingsEditor" timestamp="1618289018829">
-      <screen x="0" y="0" width="1368" height="872" />
-    </state>
-    <state x="165" y="10" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1618289018829" />
+    <state x="228" y="172" width="911" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1368.872@0.0.1368.872" timestamp="1618736185284" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/DSPPCode/mapreduce/average_score/impl/ScoreReducerImpl.java</url>
-          <line>10</line>
-          <properties class="DSPPCode.mapreduce.average_score.impl.ScoreReducerImpl">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DSPPCode/mapreduce/consumer_statistics/impl/ConsumerReducerImpl.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="11" />
+          <line>18</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="hashSet.contains(id)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
