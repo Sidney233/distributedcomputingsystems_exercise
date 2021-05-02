@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d289f9a7-6fab-4ef7-a323-4592300f47d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSPPCode/spark/broadcast_k_means/impl/BroadcastKMeansImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ry6sYkL2WvUiskQzftkWWqtCou" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BroadcastKMeansTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="distributedcomputingsystems_exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSPPTest.student.spark.broadcast_k_means.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DSPPTest.student.spark.broadcast_k_means" />
+      <option name="MAIN_CLASS_NAME" value="DSPPTest.student.spark.broadcast_k_means.BroadcastKMeansTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BroadcastKMeansTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d289f9a7-6fab-4ef7-a323-4592300f47d3" name="Default Changelist" comment="" />
+      <created>1619936193085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619936193085</updated>
+      <workItem from="1619936200974" duration="264000" />
+      <workItem from="1619936513057" duration="1871000" />
+      <workItem from="1619938482842" duration="279000" />
+      <workItem from="1619938802070" duration="4092000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="490" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1619938844015">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="490" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1368.872@0.0.1368.872" timestamp="1619938844015" />
+    <state x="415" y="182" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1619941257400">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="415" y="182" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1368.872@0.0.1368.872" timestamp="1619941257400" />
+    <state width="1326" height="281" key="GridCell.Tab.0.bottom" timestamp="1619942274780">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="281" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1619942274780" />
+    <state width="1326" height="281" key="GridCell.Tab.0.center" timestamp="1619942274780">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="281" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1619942274780" />
+    <state width="1326" height="281" key="GridCell.Tab.0.left" timestamp="1619942274780">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="281" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1619942274780" />
+    <state width="1326" height="281" key="GridCell.Tab.0.right" timestamp="1619942274780">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="281" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1619942274780" />
+    <state width="1326" height="281" key="GridCell.Tab.1.bottom" timestamp="1619942274780">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="281" key="GridCell.Tab.1.bottom/0.0.1368.872@0.0.1368.872" timestamp="1619942274780" />
+    <state width="1326" height="281" key="GridCell.Tab.1.center" timestamp="1619942274780">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="281" key="GridCell.Tab.1.center/0.0.1368.872@0.0.1368.872" timestamp="1619942274780" />
+    <state width="1326" height="281" key="GridCell.Tab.1.left" timestamp="1619942274780">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="281" key="GridCell.Tab.1.left/0.0.1368.872@0.0.1368.872" timestamp="1619942274780" />
+    <state width="1326" height="281" key="GridCell.Tab.1.right" timestamp="1619942274780">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="281" key="GridCell.Tab.1.right/0.0.1368.872@0.0.1368.872" timestamp="1619942274780" />
+    <state x="215" y="91" key="Maven.ArtifactSearchDialog" timestamp="1619938762499">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="215" y="91" key="Maven.ArtifactSearchDialog/0.0.1368.872@0.0.1368.872" timestamp="1619938762499" />
+    <state x="165" y="10" key="SettingsEditor" timestamp="1619942931237">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="165" y="10" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1619942931237" />
+    <state x="382" y="192" key="refactoring.ChangeSignatureDialog" timestamp="1619941237456">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="382" y="192" key="refactoring.ChangeSignatureDialog/0.0.1368.872@0.0.1368.872" timestamp="1619941237456" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DSPPCode/spark/broadcast_k_means/question/impl/BroadcastKMeansImpl.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

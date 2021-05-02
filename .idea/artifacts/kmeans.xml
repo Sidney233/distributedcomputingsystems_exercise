@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="kmeans">
+    <output-path>$PROJECT_DIR$/out/artifacts/kmeans</output-path>
+    <root id="archive" name="kmeans.jar">
+      <element id="module-output" name="distributedcomputingsystems_exercise" />
+      <element id="module-source" name="distributedcomputingsystems_exercise" />
+    </root>
+  </artifact>
+</component>
