@@ -13,7 +13,7 @@ public abstract class PageRankTop3 implements Serializable {
     JavaSparkContext sc = new JavaSparkContext(MODE, getClass().getName());
     // 读入文本数据，创建名为lines的RDD
     JavaRDD<String> text = sc.textFile(args[0]);
-    JavaPairRDD<String, Double> top3 = getTop3(text, 100);
+    JavaPairRDD<String, Double> top3 = getTop3(text, 100, sc);
     top3.saveAsTextFile(args[1]);
     sc.close();
   }
@@ -27,5 +27,5 @@ public abstract class PageRankTop3 implements Serializable {
    * @param iterateNum 迭代轮数
    * @return 前三名节点的  (网页名称, 该网页 rank 值)  键值对
    */
-  public abstract JavaPairRDD<String, Double> getTop3(JavaRDD<String> text, int iterateNum);
+  public abstract JavaPairRDD<String, Double> getTop3(JavaRDD<String> text, int iterateNum, JavaSparkContext sc);
 }
