@@ -1,9 +1,10 @@
 package DSPPCode.spark.moving_averages.question;
 
+import java.io.Serializable;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 
-public abstract class MovingAverages {
+public abstract class MovingAverages implements Serializable {
 
   private static final String MODE = "local";
 
