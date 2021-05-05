@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Moving" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="42d5f108-c587-43bd-81d6-5c7293fa3b14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSPPCode/spark/moving_averages/impl/MovingAveragesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DSPPCode/spark/moving_averages/question/MovingAverages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DSPPCode/spark/moving_averages/question/MovingAverages.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1s79vjGnhCyWIQbAj9r0W5b6pzZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="JUnit.MovingAveragesTest">
+    <configuration name="AqA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSPPCode.spark.moving_averages.impl.AqA" />
+      <module name="distributedcomputingsystems_exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSPPCode.spark.moving_averages.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovingAveragesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="distributedcomputingsystems_exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSPPTest.student.spark.moving_averages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DSPPTest.student.spark.moving_averages" />
+      <option name="MAIN_CLASS_NAME" value="DSPPTest.student.spark.moving_averages.MovingAveragesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleTableAssociationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSPP_Exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSPPTest.student.spark.single_table_association.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DSPPTest.student.spark.single_table_association" />
+      <option name="MAIN_CLASS_NAME" value="DSPPTest.student.spark.single_table_association.SingleTableAssociationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MovingAveragesTest" />
+        <item itemvalue="Application.AqA" />
+        <item itemvalue="JUnit.SingleTableAssociationTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42d5f108-c587-43bd-81d6-5c7293fa3b14" name="Default Changelist" comment="" />
+      <created>1620212995464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620212995464</updated>
+      <workItem from="1620213000190" duration="3174000" />
+      <workItem from="1620216943386" duration="102000" />
+      <workItem from="1620217109872" duration="777000" />
+      <workItem from="1620218183177" duration="2081000" />
+      <workItem from="1620220545882" duration="332000" />
+      <workItem from="1620220896414" duration="83000" />
+      <workItem from="1620221014297" duration="450000" />
+      <workItem from="1620221493900" duration="98000" />
+      <workItem from="1620221629065" duration="5170000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="93" y="93" width="1181" height="685" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1620226110027">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="93" y="93" width="1181" height="685" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1368.872@0.0.1368.872" timestamp="1620226110027" />
+    <state x="490" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1620221665801">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="490" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1368.872@0.0.1368.872" timestamp="1620221665801" />
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1620226851334">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1620226851334" />
+    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1620226851334">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1620226851334" />
+    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1620226851334">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1620226851334" />
+    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1620226851334">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1620226851334" />
+    <state width="1326" height="281" key="GridCell.Tab.1.bottom" timestamp="1620226851329">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="281" key="GridCell.Tab.1.bottom/0.0.1368.872@0.0.1368.872" timestamp="1620226851329" />
+    <state width="1326" height="281" key="GridCell.Tab.1.center" timestamp="1620226851329">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="281" key="GridCell.Tab.1.center/0.0.1368.872@0.0.1368.872" timestamp="1620226851329" />
+    <state width="1326" height="281" key="GridCell.Tab.1.left" timestamp="1620226851329">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="281" key="GridCell.Tab.1.left/0.0.1368.872@0.0.1368.872" timestamp="1620226851329" />
+    <state width="1326" height="281" key="GridCell.Tab.1.right" timestamp="1620226851329">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="281" key="GridCell.Tab.1.right/0.0.1368.872@0.0.1368.872" timestamp="1620226851329" />
+    <state x="165" y="10" key="SettingsEditor" timestamp="1620225501337">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="165" y="10" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1620225501337" />
+    <state width="690" height="442" key="XDebugger.FullValuePopup" timestamp="1620226133395">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="690" height="442" key="XDebugger.FullValuePopup/0.0.1368.872@0.0.1368.872" timestamp="1620226133395" />
+    <state x="347" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1620225166671">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="347" y="184" width="672" height="678" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1620225166671" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/DSPPTest/util/Verifier.java</url>
+          <line>24</line>
+          <properties class="DSPPTest.util.Verifier" method="verifyKV">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DSPPTest/student/spark/moving_averages/MovingAveragesTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/distributedcomputingsystems_exercise$MovingAveragesTest.ic" NAME="MovingAveragesTest Coverage Results" MODIFIED="1620219115261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>DSPPTest.student.spark.moving_averages.*</FILTER>
+    </SUITE>
+  </component>
+</project>

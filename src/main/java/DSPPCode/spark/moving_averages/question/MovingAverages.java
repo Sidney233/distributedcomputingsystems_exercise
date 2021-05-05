@@ -12,7 +12,7 @@ public abstract class MovingAverages implements Serializable {
     JavaSparkContext sc = new JavaSparkContext(MODE, getClass().getName());
     // 读入文本数据，创建名为lines的RDD
     JavaRDD<String> lines = sc.textFile(args[0]);
-    JavaRDD<String> timeSeries = movingAverages(lines);
+    JavaRDD<String> timeSeries = movingAverages(lines, sc);
     // 输出转换后的时间序列到文本文件中
     timeSeries.saveAsTextFile(args[1]);
     sc.close();
@@ -23,5 +23,5 @@ public abstract class MovingAverages implements Serializable {
    *
    * <p>请在此方法中完成平滑移动平均
    */
-  public abstract JavaRDD<String> movingAverages(JavaRDD<String> lines);
+  public abstract JavaRDD<String> movingAverages(JavaRDD<String> lines, JavaSparkContext sc);
 }
